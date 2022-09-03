@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* Utilities */
+
+.style1 {
+    background-color: white;
+    box-shadow: 0px 0px 30px -10px;
+}
+
+/* The first Container */
+
+.container-card-b {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2ec4b6;
+}
+
+.first-container {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-container {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.text-area {
+    padding: 0 30px 0 20px;
+}
+
+p {
+    padding-top: 20px;
+    color: #4a5759;
+}
+
+.img-container img {
+    object-fit: cover;
+    height: 100%;
+    filter: grayscale(1);
+}
+
+.background {
+    position: absolute;
+    height: 500px;
+    width: 200px;
+    background-color: #00a896;
+    rotate: -30deg;
+    left: -85px;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 18px;
+    color: #2ec4b6;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+/* The second container */
+
+.second-container {
+    border-top: none;
+    width: 550px;
+    height: 55px;
+    border-radius: 0 0 5px 5px;
+}
+
+.img-container-2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container-2 img {
+    height: 55%;
+}
