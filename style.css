@@ -103,3 +103,48 @@ h1 {
 .img-container-2 img {
     height: 55%;
 }
+
+@media (max-width: 720px) {
+
+    .container-card-b {
+        justify-content: flex-start;
+        padding-top: 40px;
+        width: 100vw;
+    }
+
+    .first-container {
+        width: 250px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-container {
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+    }
+
+    .img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .text-area {
+        padding-bottom: 90px;
+        height: fit-content;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .commun {
+        margin: 10px 0;
+    }
+
+    .second-container {
+        width: 200px;
+    }
+}
